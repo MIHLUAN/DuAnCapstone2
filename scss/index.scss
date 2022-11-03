@@ -86,6 +86,25 @@ a {
     }
 }
 
+.menu_1 {
+    margin: 0 auto;
+    max-width: 1280px;
+
+    ul {
+        margin-top: 16px;
+
+        li {
+            a {
+                font-weight: $fw-regular;
+                font-size: 20px;
+                line-height: 24px;
+                color: $text-c1-dark ;
+                margin-right: 40px;
+            }
+        }
+    }
+}
+
 // carousel
 .carousel {
 
@@ -250,8 +269,8 @@ a {
                     height: 156px;
 
                     img {
-                         object-fit: cover;
-                         width: 100%;
+                        object-fit: cover;
+                        width: 100%;
                     }
                 }
 
@@ -274,19 +293,21 @@ a {
 
                 .footer_pro {
                     display: flex;
+
                     .buyNow {
                         width: 50%;
                         height: 64px;
                         background: #E1B067;
                         text-align: center;
-                        a{
-                        font-weight: 200;
-                        font-size: 24px;
-                        line-height: 64px;
-                        color: #000 !important;
-                       
+
+                        a {
+                            font-weight: 200;
+                            font-size: 24px;
+                            line-height: 64px;
+                            color: #000 !important;
+
                         }
-                       
+
                     }
 
                     .price {
@@ -300,6 +321,100 @@ a {
                     }
                 }
 
+            }
+        }
+    }
+}
+
+// register
+.register {
+    .container {
+        h2 {
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 62px;
+        }
+
+        form {
+            justify-content: space-between;
+
+            .textInput {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: none;
+                width: 482px;
+                height: 51px;
+                margin-bottom: 30px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 3px;
+                    background-color: #AE18E2;
+                }
+
+                .validation {
+                    color: red;
+
+                    span {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+            }
+
+            .input {
+                border: none;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 36px;
+                color: #000000 !important;
+
+                &:focus {
+                    outline: 0;
+                }
+            }
+
+            .left {}
+
+            .right {
+
+                .inputGender,
+                h6 {
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+                .inputGender{
+                    input{
+                        background: #D9D9D9;
+                    }
+                    input[type=radio]:checked  {
+                        background: #AE18E2;
+                        border-color: #D9D9D9 !important;
+                      
+                    }
+                    
+                }
+                .submit {
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 36px;
+
+                    color: #FFFCFC;
+                    padding: 12px 90px;
+                    background: #AE18E2;
+                    border: none;
+                }
             }
         }
     }
