@@ -31,8 +31,8 @@ function renderProductCard(arrProduct) {
         <h3 class="nameProduct">${product.name.length > 20 ? product.name.substr(0,20) + '...' : product.name}</h3>
         <p class="shortDesc">${product.shortDescription.length > 50 ? product.shortDescription.substr(0,50) + '...' : product.shortDescription}</p>
         <div class="footer_pro ">
-            <div class="buyNow"><a href="#">Buy Now</a></div>
-            <div class="price">85$</div>
+            <div class="buyNow"><a href="../detail.html?maproduct=${product.id}">Buy Now</a></div>
+            <div class="price" id="price-index">${product.price}$</div>
         </div>
     </div>
         `;
