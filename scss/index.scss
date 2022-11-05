@@ -534,3 +534,43 @@ a {
         }
     }
 }
+// footer
+.footer{
+  
+    .container{
+        
+        max-width: 100%;
+        padding: 0 0;
+        .top{
+            width: 100%;
+            background-color: #e2e0e2;
+        }
+        .bottom{
+            width: 100%;
+            background-color: #aaa0aa;
+        }
+        .row{
+            max-width: 1200px;
+                margin: 0 auto;
+            padding: 20px 0;
+            div{
+               
+                h3{
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+                ul{
+                    padding-left: 0;
+                    li{
+                       
+                        list-style: none;
+                        
+                        a{
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
