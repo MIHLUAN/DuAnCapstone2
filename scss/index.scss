@@ -446,6 +446,7 @@ a {
 
             .infoProduct {
                 padding-left: 70px;
+
                 .info {
                     h2 {
                         font-weight: 300;
@@ -456,7 +457,7 @@ a {
                     .decs {
                         font-weight: 400;
                         font-size: 16px;
-                        line-height: 19px;  
+                        line-height: 19px;
                         width: 500px;
                         color: #140101;
                     }
@@ -534,38 +535,45 @@ a {
         }
     }
 }
+
 // footer
-.footer{
-  
-    .container{
-        
+.footer {
+
+    .container {
+
         max-width: 100%;
         padding: 0 0;
-        .top{
+
+        .top {
             width: 100%;
             background-color: #e2e0e2;
         }
-        .bottom{
+
+        .bottom {
             width: 100%;
             background-color: #aaa0aa;
         }
-        .row{
+
+        .row {
             max-width: 1200px;
-                margin: 0 auto;
+            margin: 0 auto;
             padding: 20px 0;
-            div{
-               
-                h3{
+
+            div {
+
+                h3 {
                     font-weight: 600;
                     font-size: 20px;
                 }
-                ul{
+
+                ul {
                     padding-left: 0;
-                    li{
-                       
+
+                    li {
+
                         list-style: none;
-                        
-                        a{
+
+                        a {
                             color: #000;
                         }
                     }
