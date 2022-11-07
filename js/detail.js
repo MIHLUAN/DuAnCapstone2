@@ -20,6 +20,7 @@ var token_cybersoft =
   promise.then(function (res) {
     console.log(res.data.content);
     var product = res.data.content;
+    document.querySelector("#img-product").src = product.image;
     document.querySelector("#name-product").innerHTML = product.name;
     document.querySelector("#desc-product").innerHTML = product.description;
     var arrSize =product.size;
